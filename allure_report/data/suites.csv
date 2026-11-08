@@ -1,0 +1,6 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","606","Клик по логотипу Яндекса открывает Дзен в новом окне","tests","2026-11-08","passed","2026-11-08","TestOrder","test_order","",""
+"","171","Ответ на вопрос №0 раскрывается","tests","2026-11-08","passed","2026-11-08","TestFaq","test_faq","",""
+"","3258","Позитивный сценарий заказа через кнопку «top»","tests","2026-11-08","passed","2026-11-08","TestOrder","test_order","",""
+"","1818","Позитивный сценарий заказа через кнопку «bottom»","tests","2026-11-08","passed","2026-11-08","TestOrder","test_order","",""
+"","231","Клик по логотипу Самоката ведёт на главную","tests","2026-11-08","passed","2026-11-08","TestOrder","test_order","",""
