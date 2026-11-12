@@ -7,10 +7,12 @@ class BasePage:
     def __init__(self, driver):
         self.driver = driver
 
+    @allure.step("Ожидание видимости элемента {locator}")
     def wait_visible(self, locator, timeout=10):
         return WebDriverWait(self.driver, timeout).until(
             EC.visibility_of_element_located(locator))
 
+    @allure.step("Ожидание кликабельности элемента {locator}")
     def wait_clickable(self, locator, timeout=10):
         return WebDriverWait(self.driver, timeout).until(
             EC.element_to_be_clickable(locator))
